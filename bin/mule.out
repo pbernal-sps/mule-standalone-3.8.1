@@ -1,0 +1,201 @@
+MULE_HOME is set to /opt/mule/mule-standalone-3.8.1
+Running in console (foreground) mode by default, use Ctrl-C to exit...
+MULE_HOME is set to /opt/mule/mule-standalone-3.8.1
+Running Mule...
+Removed stale pid file: /opt/mule/mule-standalone-3.8.1/bin/./.mule.pid
+--> Wrapper Started as Console
+Launching a JVM...
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: Using the ParNew young collector with the Serial old collector is deprecated and will likely be removed in a future release
+Starting the Mule Container...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+INFO  2020-08-04 14:05:27,898 [WrapperListener_start_runner] org.mule.module.launcher.MuleContainer: 
+**********************************************************************
+* Mule Runtime and Integration Platform                              *
+* Version: 3.8.1 Build: d4714d8d                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to http://www.mulesoft.org                 *
+*                                                                    *
+* Server started: 4/08/20 02:05 PM                                   *
+* JDK: 1.8.0_201 (mixed mode)                                        *
+* OS: Linux (4.4.0-1107-aws, amd64)                                  *
+* Host: ip-172-31-14-29.us-west-2.compute.internal (172.31.14.29)    *
+* Mule system properties:                                            *
+*  - mule.base = /opt/mule/mule-standalone-3.8.1                     *
+*  - mule.env = release                                              *
+*  - mule.home = /opt/mule/mule-standalone-3.8.1                     *
+**********************************************************************
+INFO  2020-08-04 14:05:27,899 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Initializing core extensions
+INFO  2020-08-04 14:05:27,900 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Starting core extensions
+INFO  2020-08-04 14:05:27,906 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2020-08-04 14:05:27,910 [WrapperListener_start_runner] org.mule.module.launcher.MuleSharedDomainClassLoader: Using domain dir /opt/mule/mule-standalone-3.8.1/domains/default for domain default
+INFO  2020-08-04 14:05:27,955 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+**********************************************************************
+* Started domain 'default'                                           *
+**********************************************************************
+INFO  2020-08-04 14:05:27,959 [WrapperListener_start_runner] org.mule.module.launcher.ArtifactArchiveInstaller: Exploding a Mule artifact archive: file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT.zip
+INFO  2020-08-04 14:05:29,198 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'mule-1.0.0-SNAPSHOT'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2020-08-04 14:05:29,202 [WrapperListener_start_runner] org.mule.module.launcher.MuleApplicationClassLoader: [mule-1.0.0-SNAPSHOT] Loading the following jars:
+=============================
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-frontend-jaxws-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/xpp3-1.1.3.4.O.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/commons-logging-1.1.3.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/validation-api-1.0.0.GA.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/aws-java-sdk-cloudfront-1.11.543.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mysql-connector-java-5.1.6.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/saxon-9.1.0.8.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/spring-ldap-core-1.3.1.RELEASE.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jackson-jaxrs-1.9.11.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-frontend-simple-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/opensaml-2.5.1-1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mule-pattern-core-3.5.0.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-ws-security-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mule-module-jersey-3.5.0.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/spring-security-config-3.1.0.RELEASE.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-transports-common-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mule-module-management-3.5.0.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/httpcore-4.4.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/xsdlib-2010.1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-core-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/spring-security-crypto-3.1.0.RELEASE.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/wss4j-1.6.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jaxb-api-2.2.1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mongo-java-driver-2.11.4.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/spring-security-web-3.1.0.RELEASE.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/xmltooling-1.3.2-1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mule-module-spring-extras-3.5.0.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jsr181-api-1.0-MR1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-databinding-aegis-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/msv-core-2011.1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-databinding-jaxb-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-ws-addr-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/xml-resolver-1.2.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jersey-server-1.6.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mx4j-remote-2.1.1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jibx-extras-1.2.4.5.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mule-module-spring-security-3.5.0.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/aws-java-sdk-kms-1.11.543.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/modelo-1.0-SNAPSHOT.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-databinding-jibx-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/httpclient-4.5.5.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/yjp-controller-api-redist-9.0.8.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jersey-json-1.6.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-transports-local-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/aws-java-sdk-core-1.11.543.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/aws-java-sdk-s3-1.11.543.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/spring-jdbc-3.2.1.RELEASE.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jaxws-api-2.2.1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/relaxngDatatype-20020414.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-wstx-msv-validation-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/neethi-3.0.2.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-bindings-soap-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/aspectjrt-1.6.11.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/activation-1.1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jackson-dataformat-cbor-2.6.7.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jibx-schema-1.2.4.5.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jmespath-java-1.11.543.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jsr250-api-1.0.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/spring-context-support-3.2.1.RELEASE.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/saaj-api-1.3.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-common-utilities-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/commons-cli-1.1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/xmlsec-1.5.3.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jdom-1.1.3.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mule-module-cxf-3.5.0.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/wrapper-3.2.3.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/ant-1.7.0.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-ws-rm-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mule-module-ws-3.5.0.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/ion-java-1.0.2.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/isorelax-20030108.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-transports-http-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mx4j-jmx-2.1.1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mx4j-tools-2.1.1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jersey-client-1.6.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-management-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/spring-security-ldap-3.1.0.RELEASE.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/spring-security-core-3.1.0.RELEASE.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jibx-run-1.2.4.5.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mx4j-impl-2.1.1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/aws-java-sdk-bundle-1.11.543.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/mule-module-mongo-3.6.1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/jersey-core-1.6.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/openws-1.4.2-1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/saaj-impl-1.3.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-api-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-tools-common-2.5.9.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/geronimo-annotation_1.1_spec-1.0.1.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/ant-launcher-1.7.0.jar
+file:/opt/mule/mule-standalone-3.8.1/apps/mule-1.0.0-SNAPSHOT/lib/cxf-rt-bindings-xml-2.5.9.jar
+=============================
+
+INFO  2020-08-04 14:05:46,660 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+**********************************************************************
+* Started app 'mule-1.0.0-SNAPSHOT'                                  *
+* Application libraries:                                             *
+*  - cxf-rt-frontend-jaxws-2.5.9.jar                                 *
+*  - xpp3-1.1.3.4.O.jar                                              *
+*  - commons-logging-1.1.3.jar                                       *
+*  - validation-api-1.0.0.GA.jar                                     *
+*  - aws-java-sdk-cloudfront-1.11.543.jar                            *
+*  - mysql-connector-java-5.1.6.jar                                  *
+*  - saxon-9.1.0.8.jar                                               *
+*  - spring-ldap-core-1.3.1.RELEASE.jar                              *
+*  - jackson-jaxrs-1.9.11.jar                                        *
+*  - cxf-rt-frontend-simple-2.5.9.jar                                *
+*  - opensaml-2.5.1-1.jar                                            *
+*  - mule-pattern-core-3.5.0.jar                                     *
+*  - cxf-rt-ws-security-2.5.9.jar                                    *
+*  - mule-module-jersey-3.5.0.jar                                    *
+*  - spring-security-config-3.1.0.RELEASE.jar                        *
+*  - cxf-rt-transports-common-2.5.9.jar                              *
+*  - mule-module-management-3.5.0.jar                                *
+*  - httpcore-4.4.9.jar                                              *
+*  - xsdlib-2010.1.jar                                               *
+*  - cxf-rt-core-2.5.9.jar                                           *
+*  - spring-security-crypto-3.1.0.RELEASE.jar                        *
+*  - wss4j-1.6.9.jar                                                 *
+*  - jaxb-api-2.2.1.jar                                              *
+*  - mongo-java-driver-2.11.4.jar                                    *
+*  - spring-security-web-3.1.0.RELEASE.jar                           *
+*  - xmltooling-1.3.2-1.jar                                          *
+*  - mule-module-spring-extras-3.5.0.jar                             *
+*  - jsr181-api-1.0-MR1.jar                                          *
+*  - cxf-rt-databinding-aegis-2.5.9.jar                              *
+*  - msv-core-2011.1.jar                                             *
+*  - cxf-rt-databinding-jaxb-2.5.9.jar                               *
+*  - cxf-rt-ws-addr-2.5.9.jar                                        *
+*  - xml-resolver-1.2.jar                                            *
+*  - jersey-server-1.6.jar                                           *
+*  - mx4j-remote-2.1.1.jar                                           *
+*  - jibx-extras-1.2.4.5.jar                                         *
+*  - mule-module-spring-security-3.5.0.jar                           *
+*  - aws-java-sdk-kms-1.11.543.jar                                   *
+*  - modelo-1.0-SNAPSHOT.jar                                         *
+*  - cxf-rt-databinding-jibx-2.5.9.jar                               *
+*  - httpclient-4.5.5.jar                                            *
+*  - yjp-controller-api-redist-9.0.8.jar                             *
+*  - jersey-json-1.6.jar                                             *
+*  - cxf-rt-transports-local-2.5.9.jar                               *
+*  - aws-java-sdk-core-1.11.543.jar                                  *
+*  - aws-java-sdk-s3-1.11.543.jar                                    *
+*  - spring-jdbc-3.2.1.RELEASE.jar                                   *
+*  - jaxws-api-2.2.1.jar                                             *
+*  - relaxngDatatype-20020414.jar                                    *
+*  - cxf-wstx-msv-validation-2.5.9.jar                               *
+*  - neethi-3.0.2.jar                                                *
+*  - cxf-rt-bindings-soap-2.5.9.jar                                  *
+*  - aspectjrt-1.6.11.jar                                            *
+*  - activation-1.1.jar                                              *
+*  - jackson-dataformat-cbor-2.6.7.jar                               *
+*  - jibx-schema-1.2.4.5.jar                                         *
+*  - jmespath-java-1.11.543.jar                                      *
+*  - jsr250-api-1.0.jar                                              *
+*  - spring-context-support-3.2.1.RELEASE.jar                        *
+*  - saaj-api-1.3.jar                                              

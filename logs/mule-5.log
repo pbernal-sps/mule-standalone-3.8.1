@@ -1,0 +1,17 @@
+Despues del transformer ...Thu Sep 01 00:00:00 CDT 2016
+Fecha en Transformer2017-05-01T05:00:00.000+0000
+Despues del transformer ...Mon May 01 00:00:00 CDT 2017
+Fecha en Transformer2016-03-30T06:00:00.000+0000
+Despues del transformer ...Wed Mar 30 00:00:00 CST 2016
+Fecha en Transformer2016-03-11T06:00:00.000+0000
+Despues del transformer ...Fri Mar 11 00:00:00 CST 2016
+Fecha en Transformer2017-05-01T05:00:00.000+0000
+Despues del transformer ...Mon May 01 00:00:00 CDT 2017
+Fecha en Transformer2017-06-01T05:00:00.000+0000
+Despues del transformer ...Thu Jun 01 00:00:00 CDT 2017
+Fecha en Transformer2017-06-01T05:00:00.000+0000
+Despues del transformer ...Thu Jun 01 00:00:00 CDT 2017
+2019-08-27 20:41:23,388 Log4j2-AsyncLoggerConfig-5 ERROR Unable to write to stream /opt/mule/mule-standalone-3.8.1/logs/mule.log for appender file
+2019-08-27 20:53:26,352 Log4j2-AsyncLoggerConfig-5 ERROR Unable to write to stream /opt/mule/mule-standalone-3.8.1/logs/mule.log for appender file
+2019-08-28 12:02:13,092 Log4j2-AsyncLoggerConfig-5 ERROR Unable to write to stream /opt/mule/mule-standalone-3.8.1/logs/mule.log for appender file
+2019-08-28 12:21:18,745 Log4j2-AsyncLoggerConfig-5 ERROR Unable to write to stream /opt/mule/mule-standalone-3.8.1/logs/mule.log for appender file
